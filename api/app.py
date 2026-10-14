@@ -72,5 +72,10 @@ def eliminar(tarea_id):
     return jsonify(eliminada=tarea_id)
 
 
+@app.get("/api/estado")
+def estado():
+    return jsonify(version="1.1", estado="activo")
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
