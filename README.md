@@ -1,5 +1,7 @@
 # Gestor de Tareas Contenerizado
 ## Integrantes
+- Gemima Cerpa
+- Melany Tesillo
 - Emily Monterrosa
 
 ## Servicios
